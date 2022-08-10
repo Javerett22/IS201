@@ -1,0 +1,61 @@
+/* General */
+body {
+    background-color: rgba(211, 234, 254, 0.675);
+}
+
+
+/* positioning */
+.sidebar {
+    float: left;
+    padding-top: 30px;
+    left: 20px;
+    position: sticky;
+    width: 300px;
+    /* height: 300px; */
+    background-color: rgb(240, 249, 237);
+    border-color: grey;
+    border: solid 2px;
+    z-index: 1;
+}
+.sidebarcentertext {
+    text-align: center;
+    padding-right: 30px;
+}
+.profileimg {
+    float: left;
+    border-radius: 80%;
+    overflow: hidden;
+    height: 200px;
+    padding: 20px;
+}
+.video {
+    display: block;
+    margin: auto;
+}
+
+
+/* override font styles*/
+.underline {
+    text-decoration: underline;
+}
+.italics {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+
+
+/* link styles */
+.link1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: coral;
+}
+.link2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(36, 70, 172);
+}
+.link3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:salmon;
+}
